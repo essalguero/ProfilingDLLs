@@ -21,6 +21,9 @@
     <ClInclude Include="cfg_Imprimir.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DllImprimir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DllImprimir.cpp">
