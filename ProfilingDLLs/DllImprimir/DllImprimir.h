@@ -6,4 +6,4 @@
 
 using namespace std;
 
-DLLIMPRIMIR_API void printSinF(string str);
+DLLIMPRIMIR_API int printSinF(string str);

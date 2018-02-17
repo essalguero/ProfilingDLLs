@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _CFG_DLLIMPRIMIR_H_
+#define _CFG_DLLIMPRIMIR_H_
 
 //see http://gcc.gnu.org/wiki/Visibility
 
@@ -31,6 +32,8 @@
 #endif // DLLIMPRIMIR_DLL_EXPORTS
 #define DLLIMPRIMIR_LOCAL DLLIMPRIMIR_HELPER_DLL_LOCAL
 #else // DLLIMPRIMIR_DLL is not defined: this means FOX is a static lib.
-#define FX_API
+#define DLLIMPRIMIR_API
 #define DLLIMPRIMIR_LOCAL
 #endif // DLLIMPRIMIR_DLL
+
+#endif
