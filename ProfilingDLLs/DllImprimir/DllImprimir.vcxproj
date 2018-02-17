@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="cfg_Imprimir.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
